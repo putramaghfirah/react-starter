@@ -1,12 +1,12 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { GlobalStyle } from '../style/GlobalStyle';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { GlobalStyle } from '../style/GlobalStyle'
 
-import { Home } from './Home';
-import { NotFound } from './NotFound';
+import { Home } from './Home'
+import { NotFound } from './NotFound'
 
-export function App() {
+export function App(): JSX.Element {
   return (
     <React.Fragment>
       <BrowserRouter>
@@ -18,5 +18,5 @@ export function App() {
         <GlobalStyle />
       </BrowserRouter>
     </React.Fragment>
-  );
+  )
 }

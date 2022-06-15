@@ -4,9 +4,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "next/core-web-vitals"
-    // Uncomment the following lines to enable eslint-config-prettier
+    "plugin:@typescript-eslint/recommended" // Uncomment the following lines to enable eslint-config-prettier
     // Is not enabled right now to avoid issues with the Next.js repo
     // "prettier",
   ],
@@ -35,12 +33,12 @@
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/no-var-requires": 0,
     "@typescript-eslint/no-use-before-define": 0,
-    "@typescript-eslint/no-unused-vars": [
-      2,
-      {
-        "argsIgnorePattern": "^_"
-      }
-    ],
+    // "@typescript-eslint/no-unused-vars": [
+    //   2,
+    //   {
+    //     "argsIgnorePattern": "^_"
+    //   }
+    // ],
     "no-console": [
       2,
       {

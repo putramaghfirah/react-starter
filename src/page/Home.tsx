@@ -1,8 +1,8 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import styled from 'styled-components';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import styled from 'styled-components'
 
-export function Home() {
+export function Home(): JSX.Element {
   return (
     <React.Fragment>
       <Helmet>
@@ -10,7 +10,7 @@ export function Home() {
       </Helmet>
       <Header>Hello Worlds</Header>
     </React.Fragment>
-  );
+  )
 }
 
-const Header = styled.h1``;
+const Header = styled.h1``
